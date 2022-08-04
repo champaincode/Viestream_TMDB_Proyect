@@ -14,8 +14,6 @@ Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/
 
 [![Captura-de-pantalla-2022-08-04-160457.png](https://i.postimg.cc/BbLNgHxG/Captura-de-pantalla-2022-08-04-160457.png)](https://postimg.cc/vxyW81qP)
 
-[![asdasd.png](https://i.postimg.cc/vT4MtqqH/asdasd.png)](https://postimg.cc/BPfdqgfd)
-
 
 
 
