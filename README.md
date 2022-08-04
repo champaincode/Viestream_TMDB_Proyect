@@ -11,8 +11,8 @@ una base de datos externa.
 
 Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/) 
 
-![register](Captura de pantalla 2022-08-04 160530.png)
-![appointment_selection](https://user-images.githubusercontent.com/99486767/182872125-4dc88717-8583-4d50-bd6a-b8309f860c37.png)
+[Captura-de-pantalla-2022-08-04-160310.png](https://postimg.cc/G9pLV3mr)
+[![Captura-de-pantalla-2022-08-04-160406.png](https://i.postimg.cc/FHBztSS6/Captura-de-pantalla-2022-08-04-160406.png)](https://postimg.cc/DS1nL8BQ)
 
 ## Construido con
 #### ReactJS
