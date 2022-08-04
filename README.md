@@ -1,10 +1,13 @@
 # Viestream TMDB  
+Desarrollo de una aplicación web de películas
+con información acerca de ellas extraída de
+una base de datos externa.
 
 
 
 ## Acerca del proyecto 
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
