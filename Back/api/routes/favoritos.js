@@ -29,7 +29,7 @@ router.post("/add", async (req, res) => {
 });
 
 router.delete("/remove" ,async (req, res) => {
-  try {console.log(req.body , "REQ BODY MADAFAKA")
+  try {
      await Favoritos.destroy({
       where: req.body,
     });

@@ -11,7 +11,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import Cardmovie from "./Cardmovie"
 
 const MoviesCards = ({ movies }) => {
-console.log(movies)
+
   return (
     <>
   

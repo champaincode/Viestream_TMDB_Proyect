@@ -13,7 +13,7 @@ const Favoritos = () => {
 
   useEffect(() => {
     dispatch(getFavorite(user.id))
-  }, []);
+  }, [favorites]);
 
   console.log(favorites)
 

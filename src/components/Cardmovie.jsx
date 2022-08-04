@@ -10,37 +10,43 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 const Cardmovie = ({ movie }) => {
   const favorites = useSelector((state) => state.fav);
   const dispatch = useDispatch();
+
   const setColor = () => {
     if (favorites) {
-      if (favorites.length)
+      if (!favorites.length)
         return favorites.find((mov) => mov.code === movie.id);
     }
   };
-  const [fav, setFav] = useState(() => {
-    return favorites.includes(movie);
-  });
+
   const user = useSelector((state) => state.user);
+
+
+
+
   const handleAdd = () => {
-    if (favorites.find((mov) => mov.id === movie.id)) {
+    if (!favorites.find((mov) => mov.id === movie.id)) {
       axios
-        .delete("http://localhost:5000/api/favoritos/remove", {
-          data: { code: movie.code, userId: user.id },
-        })
-        .then(() => {dispatch(getFavorite(user.id)); alert( `Quitaste ${movie.original_title} de tus favoritos` )});
+      .post("http://localhost:5000/api/favoritos/add", {
+        original_title: movie.original_title,
+        code: movie.id,
+        poster_path: movie.poster_path,
+        overview: movie.overview,
+        userId: user.id,
+        vote_average: movie.vote_average,
+   
+      })
+      .then(() =>  { return dispatch(getFavorite(user.id))
+   
+      });
     } else {
       axios
-        .post("http://localhost:5000/api/favoritos/add", {
-          original_title: movie.original_title,
-          code: movie.id,
-          poster_path: movie.poster_path,
-          overview: movie.overview,
-          userId: user.id,
-          vote_average: movie.vote_average,
-        })
-        .then(() =>  {dispatch(getFavorite(user.id)); alert("CHURROSSS")});
+      .delete("http://localhost:5000/api/favoritos/remove", {
+        data: { code: movie.code, userId: user.id },
+      })
+      .then(() => {dispatch(getFavorite(user.id)); alert( `Quitaste ${movie.original_title} de tus favoritos` )});
     }
-
-    setFav(!fav);
+  
+   
   };
   return (
     <>
@@ -74,7 +80,7 @@ const Cardmovie = ({ movie }) => {
                 <button className="card-button ">Ver más</button>
               </Link>
 
-              {user.user && (
+              {user.user && (  setColor() ? <button  onClick={() => handleAdd()}> HOLA</button>:
                 <BsFillSuitHeartFill
                   onClick={() => handleAdd()}
                   className="iconCorazon"

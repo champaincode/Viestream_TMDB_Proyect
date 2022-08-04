@@ -2,7 +2,7 @@ import { configureStore  } from '@reduxjs/toolkit'
 import logger from "redux-logger"
 import userReducer from './user'
 import favoriteReducer from './favoritos'
-import { } from '@reduxjs/toolkit';
+import addfavoriteReducer from "./addfavoritos"
 
 
 const store =configureStore({
@@ -11,7 +11,8 @@ const store =configureStore({
   }).concat(logger),
   reducer: {
     user:userReducer,
-    fav: favoriteReducer
+    fav: favoriteReducer,
+    addfav:addfavoriteReducer
   },
 })
 
