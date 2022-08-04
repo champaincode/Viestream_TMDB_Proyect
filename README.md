@@ -9,9 +9,9 @@ con información acerca de ellas extraída de
 una base de datos externa.
 
 
-Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/) y [#CRUCE](https://www.e-cruce.com/) a fin de impulsarnos en nuestro desarollo como Developers.
+Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/) 
 
-![register](https://user-images.githubusercontent.com/99486767/182872139-f0bb354d-26a1-4fd3-96b9-3ee9e3c534ff.png)
+![register](Captura de pantalla 2022-08-04 160530.png)
 ![appointment_selection](https://user-images.githubusercontent.com/99486767/182872125-4dc88717-8583-4d50-bd6a-b8309f860c37.png)
 
 ## Construido con
