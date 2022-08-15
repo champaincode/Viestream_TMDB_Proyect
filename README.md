@@ -12,9 +12,10 @@ una base de datos externa.
 Este proyecto fue realizado gracias a [#Plataforma5](https://www.plataforma5.la/) 
 [![Captura-de-pantalla-2022-08-04-160310.png](https://i.postimg.cc/gcVxwn9w/Captura-de-pantalla-2022-08-04-160310.png)](https://postimg.cc/G9pLV3mr)
 
-[![Captura-de-pantalla-2022-08-04-160457.png](https://i.postimg.cc/BbLNgHxG/Captura-de-pantalla-2022-08-04-160457.png)](https://postimg.cc/vxyW81qP)
 
 
+
+[![Captura-de-pantalla-2022-08-15-111555.png](https://i.postimg.cc/tCV5Kb0m/Captura-de-pantalla-2022-08-15-111555.png)](https://postimg.cc/gnm8hf2v)
 
 
 ## Construido con
